@@ -1,10 +1,7 @@
 # JOGO DA VELHA
 👨‍💻ESSE É PEQUENO JOGO QUE RODA NO CONSOLE DA IDE.
 
-[![GitHub Repo stars](https://img.shields.io/badge/VILHALVA-GITHUB-03A9F4?logo=github)](https://github.com/VILHALVA)
-[![GitHub Repo stars](https://img.shields.io/badge/MEUS-CURSOS-03A9F4?logo=github)](https://github.com/VILHALVA?tab=repositories&q=CURSO&type=public&language=&sort=)
-
-<img src="FOTO.png" align="center" width="300"> <br>
+<img src="FOTO.png" align="center" width="500"> <br>
 
 ## DESCRIÇÃO:
 O aplicativo é um jogo da velha simples para dois jogadores. Suas principais funcionalidades são:
@@ -30,4 +27,30 @@ O aplicativo é um jogo da velha simples para dois jogadores. Suas principais fu
 7. **Loop de Jogo:**
    - Permite que os jogadores continuem jogando até que haja um vencedor ou empate.
 
-O jogo da velha é conhecido por sua simplicidade, e este aplicativo em particular oferece uma experiência básica e interativa para dois jogadores.
+## COMO USAR?
+**Passo 1:** Clone o repositório para o seu sistema local.
+
+```bash
+git clone https://github.com/VILHALVA/JOGO-DA-VELHA-EXE.git
+```
+
+**Passo 2:** Navegue até o diretório do projeto.
+
+```bash
+cd JOGO-DA-VELHA-EXE
+```
+
+**Passo 3:** Descompacte o arquivo ZIP (se você baixou manualmente):
+
+```bash
+unzip JOGO-DA-VELHA-EXE.zip
+```
+
+**Passo 4:** Execute o executável do projeto.
+
+```bash
+./JOGO-DA-VELHA
+```
+
+## CREDITOS:
+- [PROJETO CRIADO PELO VILHALVA](https://github.com/VILHALVA)
