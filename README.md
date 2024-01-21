@@ -1,7 +1,7 @@
 # JOGO DA VELHA
 👨‍💻ESSE É PEQUENO JOGO QUE RODA NO CONSOLE DA IDE.
 
-<img src="FOTO.png" align="center" width="500"> <br>
+<img src="FOTO.png" align="center" width="500" height= "800"> <br>
 
 ## DESCRIÇÃO:
 O aplicativo é um jogo da velha simples para dois jogadores. Suas principais funcionalidades são:
