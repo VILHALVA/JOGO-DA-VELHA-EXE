@@ -1,7 +1,7 @@
 # JOGO DA VELHA - EXE
 👨‍💻ESSE É PEQUENO JOGO QUE RODA NO CONSOLE DA IDE.
 
-<img src="FOTO.png" align="center" width="500" height= "800"> <br>
+<img src="IMAGEM.png" align="center" width="500" height= "800"> <br>
 
 ## DESCRIÇÃO:
 O aplicativo é um jogo da velha simples para dois jogadores. Suas principais funcionalidades são:
@@ -27,6 +27,26 @@ O aplicativo é um jogo da velha simples para dois jogadores. Suas principais fu
 7. **Loop de Jogo:**
    - Permite que os jogadores continuem jogando até que haja um vencedor ou empate.
 
-## SAIBA MAIS:
+## EXECUTANDO O JOGO:
+1. Execute o código em um ambiente Python.
+2. Quando você executar o jogo, ele exibirá um tabuleiro vazio no console.
+3. O jogo solicitará que os jogadores façam suas jogadas, alternando entre X e O.
+4. Você será solicitado a inserir a linha e coluna onde deseja colocar sua marca (X ou O).
+5. Insira a linha desejada (1, 2 ou 3) e pressione Enter.
+6. Em seguida, insira a coluna desejada (1, 2 ou 3) e pressione Enter.
+7. O jogo exibirá o tabuleiro atualizado com sua jogada.
+8. Continue alternando entre os jogadores até que um jogador vença ou haja um empate.
+9. O jogo terminará quando um jogador vencer ou não houver mais jogadas disponíveis.
+10. Após o término do jogo, você terá a opção de jogar novamente ou sair do jogo.
+
+## SOBRE O EXECUTAVEL:
+- Este arquivo executável está disponível apenas para `Windows X64`. Para executá-lo, basta dar dois cliques. O executável é bastante útil caso o Python não esteja instalado. Trata-se da mesma aplicação do arquivo `CODIGO.py`. Se desejar, você pode recompilá-lo novamente; é para isso que forneci o arquivo `imagem.ico`.
+
+## NÃO SABE?
+- Entendemos que para manipular arquivos em muitas linguagens e tecnologias, é necessário possuir conhecimento nessas áreas. Para auxiliar nesse aprendizado, oferecemos cursos gratuitos disponíveis:
+* [CURSO DE PYTHON](https://github.com/VILHALVA/CURSO-DE-PYTHON)
+* [CURSO DE EXE](https://github.com/VILHALVA/CURSO-DE-EXE)
+* [CONFIRA MAIS CURSOS](https://github.com/VILHALVA?tab=repositories&q=+topic:CURSO)
+
+## CREDITOS:
 - [PROJETO CRIADO PELO VILHALVA](https://github.com/VILHALVA)
-- [FAÇA OS NOSSOS CURSOS](https://github.com/VILHALVA?tab=repositories&q=+topic:CURSO)
