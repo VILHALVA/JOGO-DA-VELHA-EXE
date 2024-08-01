@@ -28,7 +28,10 @@ O aplicativo é um jogo da velha simples para dois jogadores. Suas principais fu
    - Permite que os jogadores continuem jogando até que haja um vencedor ou empate.
 
 ## EXECUTANDO O JOGO:
-1. Execute o código em um ambiente Python.
+1. Navegue até o diretório `./CODIGO`, e execute o arquivo Python com o comando:
+```bash
+python CODIGO.py
+```
 2. Quando você executar o jogo, ele exibirá um tabuleiro vazio no console.
 3. O jogo solicitará que os jogadores façam suas jogadas, alternando entre X e O.
 4. Você será solicitado a inserir a linha e coluna onde deseja colocar sua marca (X ou O).
