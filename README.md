@@ -1,7 +1,7 @@
 # JOGO DA VELHA - EXE
 👨‍💻ESSE É PEQUENO JOGO QUE RODA NO CONSOLE DA IDE.
 
-<img src="IMAGEM.png" align="center" width="400" height= "200"> <br>
+<img src="FOTO.png" align="center" width="400" height= "200"> <br>
 
 ## DESCRIÇÃO:
 O aplicativo é um jogo da velha simples para dois jogadores. Suas principais funcionalidades são:
@@ -44,7 +44,7 @@ python CODIGO.py
 
 ## SOBRE O EXECUTAVEL:
 ### 1. EXECUTANDO:
-   - Este arquivo executável está disponível apenas para `Windows X64`. Para executá-lo, basta dar dois cliques. O executável é bastante útil caso o Python não esteja instalado. Trata-se da mesma aplicação do arquivo `CODIGO.py`. Se desejar, você pode recompilá-lo novamente; é para isso que forneci o arquivo `imagem.ico`.
+- Este arquivo executável está disponível no diretório `./APP`. Para executá-lo, basta dar dois cliques. O executável é bastante útil caso o Python não esteja instalado. Trata-se da mesma aplicação do arquivo `CODIGO.py`. Se desejar, você pode recompilá-lo novamente.
 
 ### 2. GERANDO:
    **1. Instalação do [PyInstaller:](https://pyinstaller.org/en/stable/)**
@@ -53,14 +53,18 @@ python CODIGO.py
    pip install pyinstaller
    ```
 
-   **2. Gerando o Executável:**
-   - Para gerar o executável, utilize o comando `pyinstaller` seguido de opções:
-      - `--icon="imagem.ico"`: Especifica o ícone do executável.
-      - `-F`: Gera um único arquivo executável em vez de vários.
-      - `CODIGO.py`: Substitua "CODIGO.py" pelo nome do seu arquivo Python principal.
+   **2. Gerando o Executável**
+   - No diretório `./CODIGO`, execute o comando abaixo para gerar o executável a partir do arquivo `.spec`:
+
    ```bash
-   pyinstaller --icon="imagem.ico" -F CODIGO.py
+   pyinstaller EXECUTAVEL.spec
    ```
+
+   - O arquivo `JOGO DA VELHA.exe` será criado dentro da pasta `./CODIGO/dist`.
+
+   - Após a geração, você pode mover o executável para `./APP` e remover as pastas temporárias `./CODIGO/build` e `./CODIGO/dist`.
+
+   - Para executar o aplicativo, basta dar dois cliques no arquivo `.exe`.
 
 ## NÃO SABE?
 - Entendemos que para manipular arquivos em muitas linguagens e tecnologias, é necessário possuir conhecimento nessas áreas. Para auxiliar nesse aprendizado, oferecemos cursos gratuitos disponíveis:
