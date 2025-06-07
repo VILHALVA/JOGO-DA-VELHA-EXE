@@ -28,31 +28,40 @@ O aplicativo é um jogo da velha simples para dois jogadores. Suas principais fu
    - Permite que os jogadores continuem jogando até que haja um vencedor ou empate.
 
 ## EXECUTANDO O JOGO:
-1. Navegue até o diretório `./CODIGO`, e execute o arquivo Python com o comando:
-```bash
-python CODIGO.py
-```
-2. Quando você executar o jogo, ele exibirá um tabuleiro vazio no console.
-3. O jogo solicitará que os jogadores façam suas jogadas, alternando entre X e O.
-4. Você será solicitado a inserir a linha e coluna onde deseja colocar sua marca (X ou O).
-5. Insira a linha desejada (1, 2 ou 3) e pressione Enter.
-6. Em seguida, insira a coluna desejada (1, 2 ou 3) e pressione Enter.
-7. O jogo exibirá o tabuleiro atualizado com sua jogada.
-8. Continue alternando entre os jogadores até que um jogador vença ou haja um empate.
-9. O jogo terminará quando um jogador vencer ou não houver mais jogadas disponíveis.
-10. Após o término do jogo, você terá a opção de jogar novamente ou sair do jogo.
+1. Acesse o diretório `./CODIGO` e execute o arquivo Python com o seguinte comando:
+
+   ```bash
+   python CODIGO.py
+   ```
+
+2. Ao iniciar, o jogo exibirá um tabuleiro vazio no console.
+
+3. Os jogadores farão suas jogadas alternadamente, usando os símbolos **X** e **O**.
+
+4. Quando for sua vez, o jogo solicitará que você informe a posição da jogada:
+
+   * Primeiro, insira o número da **linha** (1, 2 ou 3) e pressione Enter.
+   * Em seguida, insira o número da **coluna** (1, 2 ou 3) e pressione Enter.
+
+5. O tabuleiro será atualizado com a sua jogada.
+
+6. O jogo continuará alternando entre os jogadores até que:
+
+   * Um dos jogadores vença, **ou**
+   * Todas as posições estejam preenchidas, resultando em um **empate**.
+
+7. Ao final da partida, você poderá escolher entre **jogar novamente** ou **encerrar o jogo**.
 
 ## SOBRE O EXECUTAVEL:
-   * O executável gerado está disponível apenas para sistemas **Windows x64** e pode ser encontrado no diretório:
-   ```
-   ./APP
-   ```
-
+### 1. EXECUTANDO:
+   * O executável gerado está disponível apenas para sistemas **Windows x64** e pode ser encontrado no diretório: `./APP`.
    * Para executá-lo, basta dar dois cliques. Ele é especialmente útil em máquinas onde o **Python não está instalado**.
    * Trata-se da **mesma aplicação contida no arquivo `./CODIGO/CODIGO.py`**, porém empacotada de forma independente.
    * Se necessário, você pode recompilar o executável a qualquer momento.
 
 ### 2. GERANDO:
+> **IMPORTANTE:** Antes de gerar o novo `executável`, certifique-se de excluir o arquivo `./APP/JOGO DA VELHA.exe`.
+
    **1. Instalação do [PyInstaller:](https://pyinstaller.org/en/stable/)**
    - Certifique-se de ter o PyInstaller instalado. Se não tiver, instale usando o comando abaixo:
    ```bash
