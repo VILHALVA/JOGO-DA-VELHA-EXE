@@ -68,7 +68,7 @@ O aplicativo é um jogo da velha simples para dois jogadores. Suas principais fu
    pip install pyinstaller
    ```
 
-   **2. Gerando o Executável**
+   **2. Gerando o Executável:**
    - No diretório `./CODIGO`, execute o comando abaixo para gerar o executável a partir do arquivo `.spec`:
 
    ```bash
